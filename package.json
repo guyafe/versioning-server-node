@@ -1,0 +1,20 @@
+{
+  "name": "versioning-server",
+  "version": "0.0.0",
+  "description": "Versioining project node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc --build",
+    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guy Yafe",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
